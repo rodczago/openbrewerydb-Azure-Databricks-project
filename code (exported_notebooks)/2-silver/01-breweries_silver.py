@@ -42,4 +42,4 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC select * from bees_test_silver.breweries;
+# MAGIC select count(1) from bees_test_silver.breweries;

@@ -25,7 +25,7 @@ Step 3: Silver: Create Partitioned Table using Bronze Delta Lake Table created.
 
 Step 4: Gold: Create Aggregated View.
 
-Step 5: Schedule and execute Databricks Notebook with DataBricks Workflows, with the following tasks:
+Step 5: Schedule and execute Databricks Notebook with DataBricks Workflows, with the following taks:
 1. Mount ADLS;
 2. Create Databases * depends on Mount ADLS execution;
 3. Bronze Ingestion * depends on Create Databases execution;
